@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp"
+        app:cardMaxElevation="0dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        >
+
+        <com.example.jyuen.baseproject.widget.SquareRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black">
+
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/black"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                />
+        </com.example.jyuen.baseproject.widget.SquareRelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+</FrameLayout>
